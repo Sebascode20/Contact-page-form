@@ -595,7 +595,7 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-body-image {
+.bg-\[url\(\'\/src\/images\/bg-image\.svg\'\)\] {
   background-image: url('/src/images/bg-image.svg');
 }
 

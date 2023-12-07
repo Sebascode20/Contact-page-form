@@ -7,11 +7,7 @@ module.exports = {
     fontFamily: {
       'Vietnam': ['Be Vietnam Pro', 'sans-serif']
     },
-    extend: {
-      backgroundImage: {
-        'body-image': "url('/src/images/bg-image.svg')",
-      }
-    },
+    extend: {},
   },
   plugins: [],
 }
