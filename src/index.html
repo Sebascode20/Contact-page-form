@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact page</title>
+    <link rel="stylesheet" href="/src/output.css" />
+  </head>
+  <body class="bg-bg-image bg-no-repeat bg-cover bg-center bg-fixed">
+    <main>
+      <div class="p-4 md:p-6 xl:pl-16">
+        <img src="images/contact-form-icon.svg" alt="Company logo" />
+      </div>
+      <h1
+        class="font-Vietnam text-[2rem] text-[#F8FAFC] text-center leading-9 my-3 font-semibold md:w-[18.75rem] md:mt-8 md:mx-auto lg:w-[40rem] lg:text-5xl xl:mt-0 xl:text-6xl"
+      >
+        Interested in our business pricing?
+      </h1>
+      <h2
+        class="font-Vietnam text-[1rem] text-[#F8FAFC] text-center leading-4 font-medium mx-4 my-0 md:w-[18.75rem] md:my-4 md:mx-auto lg:w-[30rem] lg:text-2xl xl:mb-8 xl:leading-8"
+      >
+        Fill out the form to view details and we’ll contact you as soon as
+        possible.
+      </h2>
+      <form
+        class="mx-4 my-10 p-4 bg-[#F8FAFC33] rounded-3xl md:grid md:grid-cols-2 md:p-6 xl:w-[53%] xl:my-4 xl:mx-auto"
+        action=""
+      >
+        <label
+          class="font-Vietnam block text-sm text-[#F8FAFC] font-medium placeholder:text-[#CDD5E0]"
+          >Name
+          <input
+            class="block rounded-xl p-3 mb-2 w-full md:w-[96%] md:p-3 text-[#111729] focus:outline-none focus:ring-2 focus:ring-green-400 invalid:focus:ring-red-400 xl:p-4"
+            type="text"
+            name="name"
+            placeholder="Ethan Johnson"
+            required
+        /></label>
+
+        <label
+          class="font-Vietnam block text-sm text-[#F8FAFC] font-medium placeholder:text-[#CDD5E0]"
+          >Company Email
+          <input
+            class="block rounded-xl p-3 mb-2 w-full md:w-[96%] md:p-3 text-[#111729] focus: outline-none focus:ring-2 focus:ring-green-400 invalid:focus:ring-red-400 xl:p-4"
+            type="email"
+            name="email"
+            placeholder="ethan@johnson.com"
+            required
+          />
+        </label>
+
+        <label class="font-Vietnam text-sm text-[#F8FAFC] font-medium"
+          >Company Size
+          <select
+            class="block rounded-xl p-3 mb-2 w-full text-[#111729] font-bold md:w-[96%] md:p-3 xl:p-4"
+            name="company-size"
+          >
+            <option value="1">50-100 employees</option>
+            <option value="2">100-150 employees</option>
+            <option value="3">150-200 employees</option>
+            <option value="4">200-250 employees</option>
+            <option value="5">300-350 employees</option>
+          </select>
+        </label>
+
+        <label class="font-Vietnam text-sm text-[#F8FAFC] font-medium"
+          >Subject
+          <select
+            class="block rounded-xl p-3 mb-2 w-full font-bold text-[#111729] md:w-[96%] md:p-3 xl:p-4"
+            name="subject"
+          >
+            <option value="building landing pages">
+              Building Landing pages
+            </option>
+            <option value="managing databases">Managing databases</option>
+            <option value="developing mobile applications">
+              Developing mobile applications
+            </option>
+          </select>
+        </label>
+
+        <label
+          class="font-Vietnam text-sm text-[#F8FAFC] font-medium"
+          for="message"
+          >Message
+        </label>
+
+        <textarea
+          class="font-Vietnam text-sm block rounded-xl pt-3 w-full text-[#111729] font-bold resize-none md:col-span-2 xl:h-[25vh]"
+          name="message"
+          id="message"
+          cols="50"
+          rows="5"
+        >
+        </textarea>
+
+        <button
+          class="font-Vietnam text-xl text-[#4036A9] bg-[#FFFFFF] w-full mt-3 mb-8 p-4 rounded-xl font-semibold md:col-span-2 xl:mb-3"
+        >
+          Contact Sales
+        </button>
+      </form>
+    </main>
+  </body>
+</html>
