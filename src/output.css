@@ -955,8 +955,40 @@ video {
     margin-bottom: 1rem;
   }
 
+  .xl\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .xl\:mb-1 {
+    margin-bottom: 0.25rem;
+  }
+
   .xl\:h-\[25vh\] {
     height: 25vh;
+  }
+
+  .xl\:h-\[20vh\] {
+    height: 20vh;
+  }
+
+  .xl\:h-\[22vh\] {
+    height: 22vh;
+  }
+
+  .xl\:h-\[21vh\] {
+    height: 21vh;
+  }
+
+  .xl\:h-\[15vh\] {
+    height: 15vh;
+  }
+
+  .xl\:h-\[19vh\] {
+    height: 19vh;
+  }
+
+  .xl\:h-\[18vh\] {
+    height: 18vh;
   }
 
   .xl\:w-\[53\%\] {
@@ -967,8 +999,16 @@ video {
     padding: 1rem;
   }
 
+  .xl\:p-0 {
+    padding: 0px;
+  }
+
   .xl\:pl-16 {
     padding-left: 4rem;
+  }
+
+  .xl\:pb-0 {
+    padding-bottom: 0px;
   }
 
   .xl\:leading-8 {
